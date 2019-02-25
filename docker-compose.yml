@@ -47,7 +47,7 @@ services:
       - ERA_SRV_HOSTNAME=server
     depends_on:
       - server
-   ports:
+    ports:
      - 8080:8080
     logging:
       driver: journald
